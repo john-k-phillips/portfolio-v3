@@ -325,6 +325,10 @@ footer ul li a {
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Quicksand', sans-serif;
   font-size: 18px;
