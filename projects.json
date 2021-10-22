@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "projectURL": "https://the-amethyst-project.netlify.app/",
+            "projectName": "The Amethyst Project",
+            "image-name": "./images/ameythst-project.png",
+            "project-desc": "Weird scoreboard for messages with friends, it's complicated."
+        },
+        {
+            "projectURL": "https://frosty-shirley-ff46fe.netlify.app/",
+            "projectName": "Time Tracking Dashboard",
+            "image-name": "./images/time-tracking-dashboard.png",
+            "project-desc": "Time tracking 'example' app, challenge by frontend mentor."
+        },
+        {
+            "projectURL": "https://happy-babbage-0f1218.netlify.app/",
+            "projectName": "Base Apparel Coming Soon",
+            "image-name": "./images/coming-soon-landing.png",
+            "project-desc": "Landing page sign-up design, challenge by frontend mentor."
+        },
+        {
+            "projectURL": "https://distracted-ritchie-676eb0.netlify.app/",
+            "projectName": "Social Proof Section",
+            "image-name": "./images/social-proof-section.png",
+            "project-desc": "Social proofing design, challenge by frontend mentor."
+        },
+        {
+            "projectURL": "https://loving-ptolemy-e48053.netlify.app/",
+            "projectName": "Social Proof Section",
+            "image-name": "./images/huddle-page.png",
+            "project-desc": "Huddle landing page, challenge by frontend mentor."
+        },
+        {
+            "projectURL": "https://frosty-brahmagupta-21e5e4.netlify.app/",
+            "projectName": "Ping Coming Soon",
+            "image-name": "./images/ping-coming-soon.png",
+            "project-desc": "Ping launching sign-up page, challenge by frontend mentor."
+        }
+    ]
+}
