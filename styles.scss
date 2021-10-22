@@ -2,6 +2,7 @@
 @import './styles/variables';
 @import './styles/header';
 @import './styles/main';
+@import './styles/tool-section';
 
 *, *::after, *::before {
     margin: 0;
@@ -25,4 +26,8 @@ button {
 
 img {
     max-width: 100%;
+}
+
+ul, ol {
+    list-style: none;
 }
