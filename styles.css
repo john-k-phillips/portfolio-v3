@@ -9,7 +9,6 @@
 }
 
 #intro nav ul {
-  list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -90,6 +89,7 @@
   background-color: #2972E0;
   margin-top: 3.5em;
   padding: 4em 0em;
+  padding-bottom: 8em;
   text-align: center;
   color: white;
 }
@@ -145,6 +145,27 @@
           transform: rotate(45deg);
 }
 
+#tool-section {
+  position: relative;
+  padding: 5em 0em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#tool-section .tool-card {
+  position: absolute;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+  margin: auto;
+  width: 70%;
+  top: -80px;
+}
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;
@@ -167,5 +188,9 @@ button {
 
 img {
   max-width: 100%;
+}
+
+ul, ol {
+  list-style: none;
 }
 /*# sourceMappingURL=styles.css.map */
