@@ -15,10 +15,38 @@
                     text-decoration: none;
                     color: $clr-black;
                     font-weight: lighter;
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
                 .hello-link {
                     font-size: 1.5em;
                     font-weight: bold;
+                    position: relative;
+                    transition: color 0.3s ease-in;
+                    &:hover, &:focus {
+                        outline: none;
+                        text-decoration: none;
+                        color: white;
+                        &::after {
+                            transition: all 0.3s ease-in;
+                            height: 35px;
+                            top: 2px;
+                        }
+                    }
+                    &::after {
+                        transition: all 0.3s ease-in;
+                        content: '';
+                        display: block;
+                        position: absolute;
+
+                        width: 100%;
+                        height: 4px;
+                        top: 34px;
+
+                        background-color: $clr-blue;
+                        z-index: -1;
+                    }
                 }
             }
         }
