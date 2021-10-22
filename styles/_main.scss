@@ -5,4 +5,45 @@
 
     text-align: center;
     color: white;
+
+    h2 {
+        font-size: clamp(1.6em, 3vw, 3em);
+        margin: auto;
+        margin-bottom: 0.5em;
+    }
+    p {
+        width: 80%;
+        font-size: clamp(0.8em, 2vw 1.2em);
+        max-width: 500px;
+        margin: auto;
+    }
+    p:last-child {
+        margin-top: 1em;
+    }
 }
+
+.yellow-accent {
+    color: $clr-yellow;
+}
+
+.custom-divider {
+    max-width: 200px;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+    .line {
+        width: 50px;
+        height: 2px;
+        background-color: white;
+    }
+    .diamond {
+        width: 18px;
+        height: 18px;
+        background-color: white;
+        margin: auto;
+        transform: rotate(45deg);
+    }
+}
+

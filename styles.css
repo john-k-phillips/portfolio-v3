@@ -94,6 +94,57 @@
   color: white;
 }
 
+#content h2 {
+  font-size: clamp(1.6em, 3vw, 3em);
+  margin: auto;
+  margin-bottom: 0.5em;
+}
+
+#content p {
+  width: 80%;
+  font-size: clamp(0.8em, 2vw 1.2em);
+  max-width: 500px;
+  margin: auto;
+}
+
+#content p:last-child {
+  margin-top: 1em;
+}
+
+.yellow-accent {
+  color: #fff34d;
+}
+
+.custom-divider {
+  max-width: 200px;
+  margin: 1em auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.custom-divider .line {
+  width: 50px;
+  height: 2px;
+  background-color: white;
+}
+
+.custom-divider .diamond {
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  margin: auto;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;
