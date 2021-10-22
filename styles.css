@@ -199,6 +199,77 @@
   font-size: 0.9em;
 }
 
+#projects {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 5em;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 2em;
+}
+
+#projects .card-list {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2em;
+}
+
+.card {
+  position: relative;
+  width: 400px;
+  border-radius: 1em;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+
+.card:hover, .card:focus {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.card .cover {
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  font-size: clamp(0.8em, 2vw, 1em);
+  border-radius: 1em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover > .cover {
+  opacity: 1;
+}
+
+.card:focus > .cover {
+  opacity: 1;
+}
+
+.card img {
+  border-radius: 1em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 100%;
+}
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;
