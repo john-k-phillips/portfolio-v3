@@ -53,6 +53,14 @@
   max-width: 300px;
 }
 
+#content {
+  background-color: #2972E0;
+  margin-top: 3.5em;
+  padding: 4em 0em;
+  text-align: center;
+  color: white;
+}
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;
