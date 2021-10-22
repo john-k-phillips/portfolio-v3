@@ -1,0 +1,48 @@
+#intro {
+    margin-top: 3em;
+    nav {
+        width: 80%;
+        margin: auto;
+        ul {
+            list-style: none;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2em;
+            li {
+                a {
+                    text-decoration: none;
+                    color: $clr-black;
+                    font-weight: lighter;
+                }
+                .hello-link {
+                    font-size: 1.5em;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .text-content {
+        h1 {
+            margin-top: 1em;
+
+            font-size: clamp(1em, 7.5vw, 4em);
+            text-align: center;
+        }
+        p {
+            color: $clr-blue;
+            text-align: center;
+            font-size:clamp(1em, 5vw, 1.42em);
+            max-width: 80%;
+            margin: auto;
+        }
+    }
+
+    .profile-container {
+        margin: auto;
+        width: 60%;
+        max-width: 300px;
+    }
+}
