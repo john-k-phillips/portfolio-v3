@@ -147,23 +147,56 @@
 
 #tool-section {
   position: relative;
-  padding: 5em 0em;
+  padding: 12em 0em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
 }
 
 #tool-section .tool-card {
   position: absolute;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  background-color: white;
-  margin: auto;
-  width: 70%;
   top: -80px;
+  width: 70%;
+  max-width: 500px;
+  margin: auto;
+  padding: 2em;
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 1em;
+  border: 5px solid #2972E0;
+}
+
+#tool-section .tool-card h3 {
+  font-size: clamp(1em, 2vw, 2em);
+}
+
+#tool-section .tool-card hr {
+  margin: 1em auto;
+  max-width: 200px;
+  border: 1px solid #242424;
+  opacity: 0.8;
+}
+
+#tool-section .tool-card p {
+  opacity: 0.8;
+  font-size: 0.9em;
+  margin-top: 0.3em;
+  width: 100%;
+  max-width: 250px;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+#tool-section .tool-card h4 {
+  margin-bottom: 0.2em;
+  color: #2972E0;
+  text-transform: uppercase;
+  font-size: 0.9em;
 }
 
 *, *::after, *::before {
