@@ -255,6 +255,10 @@
   transition: all 0.3s ease-in-out;
 }
 
+.card .cover p {
+  width: 80%;
+}
+
 .card:hover > .cover {
   opacity: 1;
 }

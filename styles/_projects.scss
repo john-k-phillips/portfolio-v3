@@ -48,6 +48,9 @@
         border-radius: 1em;
 
         transition: all 0.3s ease-in-out;
+        p {
+            width: 80%;
+        }
     }
 
     &:hover > .cover {
