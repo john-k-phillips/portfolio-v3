@@ -1,6 +1,12 @@
 {
     "data": [
         {
+            "projectURL": "https://condescending-albattani-f59691.netlify.app/",
+            "projectName": "GitHub User Search",
+            "image-name": "./images/github-user-search-page.png",
+            "project-desc": "Search users via the GitHub API, challenge by frontend mentor."
+        },
+        {
             "projectURL": "https://the-amethyst-project.netlify.app/",
             "projectName": "The Amethyst Project",
             "image-name": "./images/ameythst-project.png",
@@ -29,7 +35,10 @@
             "projectName": "Social Proof Section",
             "image-name": "./images/huddle-page.png",
             "project-desc": "Huddle landing page, challenge by frontend mentor."
-        },
+        }
+    ],
+
+    "oldData": [
         {
             "projectURL": "https://frosty-brahmagupta-21e5e4.netlify.app/",
             "projectName": "Ping Coming Soon",
@@ -38,3 +47,5 @@
         }
     ]
 }
+
+
