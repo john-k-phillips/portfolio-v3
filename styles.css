@@ -274,6 +274,10 @@
   height: 100%;
 }
 
+.checkout-projects {
+  margin-top: 2em;
+}
+
 footer {
   padding: 5em 0em;
   background-color: #2972E0;
