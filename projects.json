@@ -1,6 +1,18 @@
 {
     "data": [
         {
+            "projectURL": "https://elastic-fermat-5739ec.netlify.app/",
+            "projectName": "Blogr Landing Page",
+            "image-name": "./images/blogr.png",
+            "project-desc": "A landing page for Blogr, challenge by frontend mentor."
+        },
+        {
+            "projectURL": "https://eloquent-saha-c9f0e6.netlify.app/",
+            "projectName": "JavaScript Tip Calculator",
+            "image-name": "./images/tip-calculator.png",
+            "project-desc": "Calculate a tip based on values, challenge by frontend mentor."
+        },
+        {
             "projectURL": "https://condescending-albattani-f59691.netlify.app/",
             "projectName": "GitHub User Search",
             "image-name": "./images/github-user-search-page.png",
@@ -23,6 +35,15 @@
             "projectName": "Base Apparel Coming Soon",
             "image-name": "./images/coming-soon-landing.png",
             "project-desc": "Landing page sign-up design, challenge by frontend mentor."
+        }
+    ],
+
+    "oldData": [
+        {
+            "projectURL": "https://frosty-brahmagupta-21e5e4.netlify.app/",
+            "projectName": "Ping Coming Soon",
+            "image-name": "./images/ping-coming-soon.png",
+            "project-desc": "Ping launching sign-up page, challenge by frontend mentor."
         },
         {
             "projectURL": "https://distracted-ritchie-676eb0.netlify.app/",
@@ -35,15 +56,6 @@
             "projectName": "Social Proof Section",
             "image-name": "./images/huddle-page.png",
             "project-desc": "Huddle landing page, challenge by frontend mentor."
-        }
-    ],
-
-    "oldData": [
-        {
-            "projectURL": "https://frosty-brahmagupta-21e5e4.netlify.app/",
-            "projectName": "Ping Coming Soon",
-            "image-name": "./images/ping-coming-soon.png",
-            "project-desc": "Ping launching sign-up page, challenge by frontend mentor."
         }
     ]
 }
