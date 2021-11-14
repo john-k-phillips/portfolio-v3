@@ -1,6 +1,12 @@
 {
     "data": [
         {
+            "projectURL": "https://vibrant-mclean-ef9e8e.netlify.app/",
+            "projectName": "Crowdfunding product page",
+            "image-name": "./images/crowdfund.png",
+            "project-desc": "Funding product page with pledges, challenge by frontend mentor."
+        },
+        {
             "projectURL": "https://elastic-fermat-5739ec.netlify.app/",
             "projectName": "Blogr Landing Page",
             "image-name": "./images/blogr.png",
@@ -29,12 +35,6 @@
             "projectName": "Time Tracking Dashboard",
             "image-name": "./images/time-tracking-dashboard.png",
             "project-desc": "Time tracking 'example' app, challenge by frontend mentor."
-        },
-        {
-            "projectURL": "https://happy-babbage-0f1218.netlify.app/",
-            "projectName": "Base Apparel Coming Soon",
-            "image-name": "./images/coming-soon-landing.png",
-            "project-desc": "Landing page sign-up design, challenge by frontend mentor."
         }
     ],
 
@@ -56,6 +56,12 @@
             "projectName": "Social Proof Section",
             "image-name": "./images/huddle-page.png",
             "project-desc": "Huddle landing page, challenge by frontend mentor."
+        },
+        {
+            "projectURL": "https://happy-babbage-0f1218.netlify.app/",
+            "projectName": "Base Apparel Coming Soon",
+            "image-name": "./images/coming-soon-landing.png",
+            "project-desc": "Landing page sign-up design, challenge by frontend mentor."
         }
     ]
 }
