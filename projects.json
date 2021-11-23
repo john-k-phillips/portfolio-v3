@@ -1,69 +1,73 @@
 {
-    "data": [
-        {
-            "projectURL": "https://vibrant-mclean-ef9e8e.netlify.app/",
-            "projectName": "Crowdfunding product page",
-            "image-name": "./images/crowdfund.png",
-            "project-desc": "Funding product page with pledges, challenge by frontend mentor."
-        },
-        {
-            "projectURL": "https://elastic-fermat-5739ec.netlify.app/",
-            "projectName": "Blogr Landing Page",
-            "image-name": "./images/blogr.png",
-            "project-desc": "A landing page for Blogr, challenge by frontend mentor."
-        },
-        {
-            "projectURL": "https://eloquent-saha-c9f0e6.netlify.app/",
-            "projectName": "JavaScript Tip Calculator",
-            "image-name": "./images/tip-calculator.png",
-            "project-desc": "Calculate a tip based on values, challenge by frontend mentor."
-        },
-        {
-            "projectURL": "https://condescending-albattani-f59691.netlify.app/",
-            "projectName": "GitHub User Search",
-            "image-name": "./images/github-user-search-page.png",
-            "project-desc": "Search users via the GitHub API, challenge by frontend mentor."
-        },
-        {
-            "projectURL": "https://the-amethyst-project.netlify.app/",
-            "projectName": "The Amethyst Project",
-            "image-name": "./images/ameythst-project.png",
-            "project-desc": "Weird scoreboard for messages with friends, it's complicated."
-        },
-        {
-            "projectURL": "https://frosty-shirley-ff46fe.netlify.app/",
-            "projectName": "Time Tracking Dashboard",
-            "image-name": "./images/time-tracking-dashboard.png",
-            "project-desc": "Time tracking 'example' app, challenge by frontend mentor."
-        }
-    ],
+  "data": [
+    {
+      "projectURL": "https://github.com/john-k-phillips/fm-loopstudios-landing-page",
+      "projectName": "Loopstudios Landing Page",
+      "image-name": "./images/loopstudios.png",
+      "project-desc": "Loopstudios landing page with React, challenge by frontend mentor."
+    },
+    {
+      "projectURL": "https://github.com/john-k-phillips/fm-crowdfunding-product-page",
+      "projectName": "Crowdfunding product page",
+      "image-name": "./images/crowdfund.png",
+      "project-desc": "Funding product page with pledges, challenge by frontend mentor."
+    },
+    {
+      "projectURL": "https://github.com/john-k-phillips/fm-blogr-landing-page",
+      "projectName": "Blogr Landing Page",
+      "image-name": "./images/blogr.png",
+      "project-desc": "A landing page for Blogr, challenge by frontend mentor."
+    },
+    {
+      "projectURL": "https://github.com/john-k-phillips/fm-tip-calculator-app",
+      "projectName": "JavaScript Tip Calculator",
+      "image-name": "./images/tip-calculator.png",
+      "project-desc": "Calculate a tip based on values, challenge by frontend mentor."
+    },
+    {
+      "projectURL": "https://github.com/john-k-phillips/fm-github-user-search-app",
+      "projectName": "GitHub User Search",
+      "image-name": "./images/github-user-search-page.png",
+      "project-desc": "Search users via the GitHub API, challenge by frontend mentor."
+    },
+    {
+      "projectURL": "https://the-amethyst-project.netlify.app/",
+      "projectName": "The Amethyst Project",
+      "image-name": "./images/ameythst-project.png",
+      "project-desc": "Weird scoreboard for messages with friends, it's complicated."
+    }
+  ],
 
-    "oldData": [
-        {
-            "projectURL": "https://frosty-brahmagupta-21e5e4.netlify.app/",
-            "projectName": "Ping Coming Soon",
-            "image-name": "./images/ping-coming-soon.png",
-            "project-desc": "Ping launching sign-up page, challenge by frontend mentor."
-        },
-        {
-            "projectURL": "https://distracted-ritchie-676eb0.netlify.app/",
-            "projectName": "Social Proof Section",
-            "image-name": "./images/social-proof-section.png",
-            "project-desc": "Social proofing design, challenge by frontend mentor."
-        },
-        {
-            "projectURL": "https://loving-ptolemy-e48053.netlify.app/",
-            "projectName": "Social Proof Section",
-            "image-name": "./images/huddle-page.png",
-            "project-desc": "Huddle landing page, challenge by frontend mentor."
-        },
-        {
-            "projectURL": "https://happy-babbage-0f1218.netlify.app/",
-            "projectName": "Base Apparel Coming Soon",
-            "image-name": "./images/coming-soon-landing.png",
-            "project-desc": "Landing page sign-up design, challenge by frontend mentor."
-        }
-    ]
+  "oldData": [
+    {
+      "projectURL": "https://frosty-shirley-ff46fe.netlify.app/",
+      "projectName": "Time Tracking Dashboard",
+      "image-name": "./images/time-tracking-dashboard.png",
+      "project-desc": "Time tracking 'example' app, challenge by frontend mentor."
+    },
+    {
+      "projectURL": "https://frosty-brahmagupta-21e5e4.netlify.app/",
+      "projectName": "Ping Coming Soon",
+      "image-name": "./images/ping-coming-soon.png",
+      "project-desc": "Ping launching sign-up page, challenge by frontend mentor."
+    },
+    {
+      "projectURL": "https://distracted-ritchie-676eb0.netlify.app/",
+      "projectName": "Social Proof Section",
+      "image-name": "./images/social-proof-section.png",
+      "project-desc": "Social proofing design, challenge by frontend mentor."
+    },
+    {
+      "projectURL": "https://loving-ptolemy-e48053.netlify.app/",
+      "projectName": "Social Proof Section",
+      "image-name": "./images/huddle-page.png",
+      "project-desc": "Huddle landing page, challenge by frontend mentor."
+    },
+    {
+      "projectURL": "https://happy-babbage-0f1218.netlify.app/",
+      "projectName": "Base Apparel Coming Soon",
+      "image-name": "./images/coming-soon-landing.png",
+      "project-desc": "Landing page sign-up design, challenge by frontend mentor."
+    }
+  ]
 }
-
-
